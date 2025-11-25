@@ -1,12 +1,19 @@
 import { Outlet } from 'react-router';
+import * as S from './Layout.styled';
 
-const Layout = () => {
+const LiteLayout = () => {
+  const handleClick = () => {
+    window.location.reload();
+  };
+
   return (
-    <>
-      레이아웃
+    <S.LiteLayoutContainer>
+      <S.LogoContainer>
+        <S.Logo onClick={handleClick} />
+      </S.LogoContainer>
       <Outlet />
-    </>
+    </S.LiteLayoutContainer>
   );
 };
 
-export default Layout;
+export default LiteLayout;
