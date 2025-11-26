@@ -1,15 +1,18 @@
 import { BrowserRouter, Route, Routes } from 'react-router';
 import Layout from '@layout/Layout';
 import Home from '@pages/Home';
+import * as S from './App.styled';
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route element={<Layout />}>
-          <Route index element={<Home />} />
-        </Route>
-      </Routes>
+      <S.AppContainer>
+        <Routes>
+          <Route element={<Layout />}>
+            <Route index element={<Home />} />
+          </Route>
+        </Routes>
+      </S.AppContainer>
     </BrowserRouter>
   );
 }
