@@ -12,7 +12,9 @@ const LiteLayout = () => {
       <S.LogoContainer>
         <S.Logo onClick={handleClick} />
       </S.LogoContainer>
-      <Outlet />
+      <S.Page>
+        <Outlet />
+      </S.Page>
       <NavBar />
     </S.LayoutContainer>
   );
