@@ -5,10 +5,7 @@ export const LayoutContainer = styled.div`
   width: 400px;
 `;
 
-export const Page = styled.div`
-  min-height: 100vh;
-  background: ${({ theme }) => theme.colors.BlackAndWhite.white};
-`;
+export const Page = styled.div``;
 
 export const Logo = styled.img.attrs({
   src: logo,
