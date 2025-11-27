@@ -7,7 +7,7 @@ const OnBoarding = () => {
     <S.OnboardingContainer>
       <S.OnboardingSection>
         <Logo width={'245px'} height={'56px'} />
-        <S.OnBoardingText>밴드가 만나는 시간을 더 즐겁게</S.OnBoardingText>
+        <S.OnBoardingText>우리가 만나는 시간을 더 즐겁게</S.OnBoardingText>
       </S.OnboardingSection>
       <KaKaoLogin />
     </S.OnboardingContainer>
