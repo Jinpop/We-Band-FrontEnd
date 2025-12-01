@@ -52,7 +52,7 @@ const Auth = () => {
         ) : (
           <>
             <LoadingOnboarding width={'50px'} height={'50px'} />
-            <S.AuthText>로그인 중입니다...</S.AuthText>
+            <S.AuthText>로그인중입니다...</S.AuthText>
           </>
         )}
       </S.AuthSection>
