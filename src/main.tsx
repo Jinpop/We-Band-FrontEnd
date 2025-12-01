@@ -9,9 +9,9 @@ import theme from '@styles/theme/theme.ts';
 import '@styles/global/global.scss';
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+  <>
     <ThemeProvider theme={theme}>
       <App />
     </ThemeProvider>
-  </StrictMode>,
+  </>,
 );
